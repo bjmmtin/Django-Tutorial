@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background-color: black;
+    color: whitesmoke;
+    flex-grow: column;
+}
+nav {
+    padding: 1rem;
+    height: 85px;
+    background-color: #44b78b;
+    color: white;
+    font-size: 2.5rem;
+}
+main {
+    flex-grow: 1;
+    display: grid;
+}
+.post{
+    padding: 10px;
+}
+ p{
+    font-size: 25px;
+}
+h1, h2{
+    font-size: 2.5rem;
+}
+a {
+    text-decoration: none;
+    color: #81dbb8;
+}
+a:hover {
+    opacity: 0.85;
+}
+.banner{
+    padding: 10px;
+    display: block;
+    width: 100%;
+    max-width: 800px;
+}
+.post-content{
+    padding: 10px;
+}
+.form-with-validation{
+    padding: 10px;
+    font-size: 1.25rem;
+}
+.form-with-validation input{
+    padding: 10px;
+    margin: 5px;
+}
+.form-with-validation div{
+    padding: 10px;
+}
+.form-with-validation li{
+    list-style-type: none;
+}
+.submit-button{
+    border-color: rgb(22, 82, 211);
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 1.8rem;
+    font-weight: bolder;
+    margin-top: 10px;
+    color: white;
+    background-color: rgb(22, 82, 211);
+}
+.submit-button:hover{
+    opacity: 0.85;
+}
+.logout{
+    display: inline-block;
+}
+.logout-button{
+    cursor: pointer;
+    border: #44b78b;
+    background-color: #44b78b;
+    font-size: 2.5rem;
+}
+.logout-button:hover{
+    opacity: 0.85;
+}

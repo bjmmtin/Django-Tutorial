@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    {{ post.title }}
+{% endblock title %}
+
+{% block content %}
+<section>
+    <img class='banner' src="{{ post.banner.url }}" alt="{{ post.title }}"/>
+    <div class='post-content'>
+        <h2>{{ post.title }}</h2>
+        <p>{{ post.date }}</p>
+        <p>{{ post.body }}</p>
+    </div>
+</section>
+{% endblock content %}
